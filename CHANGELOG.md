@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/idylicaro/changelog-test/compare/v2.0.0...v2.0.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* add additional fix comment in config.ts ([ffe58cc](https://github.com/idylicaro/changelog-test/commit/ffe58cc0b40c8d78f72036656df1bd1dfdb6a3a5))
+
 # [2.0.0](https://github.com/idylicaro/changelog-test/compare/v1.1.0...v2.0.0) (2025-03-27)
 
 
