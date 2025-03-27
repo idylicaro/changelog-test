@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/idylicaro/changelog-test/compare/v1.1.0...v2.0.0) (2025-03-27)
+
+
+* Merge pull request [#2](https://github.com/idylicaro/changelog-test/issues/2) from idylicaro/hotfix/idylicaro_ ([6a393bd](https://github.com/idylicaro/changelog-test/commit/6a393bd2f933dd2befae362edac95cb109e19b2c))
+
+
+### BREAKING CHANGES
+
+* remove process
+
 # [1.1.0](https://github.com/idylicaro/changelog-test/compare/v1.0.0...v1.1.0) (2025-03-27)
 
 
