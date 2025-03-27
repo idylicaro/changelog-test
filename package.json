@@ -1,0 +1,8 @@
+{
+  "name": "changelog-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/idylicaro/changelog-test.git",
+  "author": "Idyl Icaro dos Santos <idylicaro.se@gmail.com>",
+  "license": "MIT"
+}
