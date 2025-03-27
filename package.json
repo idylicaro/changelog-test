@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/idylicaro/changelog-test.git",
   "author": "Idyl Icaro dos Santos <idylicaro.se@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^21.0.7"
+  }
 }
