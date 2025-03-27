@@ -6,20 +6,23 @@ on:
 jobs:
   update-changelog:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite push de alterações
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }} # Adicione esta linha
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: "20"
-          cache: "yarn" # Adicione cache para yarn
+          cache: "yarn"
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile # Equivalente ao npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Generate CHANGELOG
         env:
